@@ -15,6 +15,6 @@ Weather forecast app
 
 3. Process and render the results on the view.
 
-#### The API I used: _openweathermap.org_
+#### The API I used: https://openweathermap.org/
 
 #### Mobile responsiveness to be added in the future.
