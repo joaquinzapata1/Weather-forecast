@@ -34,13 +34,14 @@ document.getElementById("search").addEventListener("click", e=> {
     let city = document.getElementById("city").value;
     fetch(`services/weather?city=${city}`, {mode:"no-cors", data:{}})
     .then( data => {
-        data.json().then( j => {
-            renderInfo(j)
+        data.json()
+            .then( j => {
+                renderInfo(j)
         });
     })
-    .catch( e => console.log(e.toString()))
+    .catch( e => console.log(e.toString()));
 
-})
+});
 
 
 
