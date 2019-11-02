@@ -9,7 +9,7 @@
     <div class="row my-5">
         <form method="get" action="services/weather" class="col col-md-6 mx-auto text-center">
             <div class="form-group">
-                <input id="city" type="text" class="form-control" name="city" placeholder="Search for your city!">
+                <input id="city" type="text" class="form-control" name="city" placeholder="Search for your city!" spellcheck="false">
                 <button type="submit" class="btn btn-info mt-1" id="search">Search</button>
             </div>
         </form>
