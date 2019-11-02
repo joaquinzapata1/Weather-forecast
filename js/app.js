@@ -32,7 +32,7 @@ function getIcon(i) {
 document.getElementById("search").addEventListener("click", e=> {
     e.preventDefault();
     let city = document.getElementById("city").value;
-    fetch(`services/weather?city=${city}`)
+    fetch(`services/weather?city=${city}`, {mode:"no-cors"})
     .then( data => {
         data.json().then( j => renderInfo(j))
     })
