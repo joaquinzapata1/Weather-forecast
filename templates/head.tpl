@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/weather-icons.min.css" type="text/css">
     <link rel="stylesheet" href="css/weather-icons-wind.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="shortcut icon" href="https://www.google.com/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <title>{$title}</title>
   </head>
   <body>
