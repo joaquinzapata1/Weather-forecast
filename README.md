@@ -14,3 +14,7 @@ Weather forecast app
 2. Use AJAX to send requests to the webservice.
 
 3. Process and render the results on the view.
+
+#### The API I used: _openweathermap.org_
+
+#### Mobile responsiveness to be added in the future.
