@@ -9,7 +9,9 @@ class Service {
   }
 
   public function json_response($data, $status) {
-    header("Content-Type: text/plain");
+    header("Content-Type: application/json");
+    header('Access-Control-Allow-Origin: *');
+    header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
     header("HTTP/1.1 " . $status . " " . $this->_requestStatus($status));
     return json_encode($data);
   }
