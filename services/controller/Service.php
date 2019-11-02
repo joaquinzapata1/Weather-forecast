@@ -9,7 +9,7 @@ class Service {
   }
 
   public function json_response($data, $status) {
-    header("Content-Type: application/json");
+    header("Content-Type: text/plain");
     header("HTTP/1.1 " . $status . " " . $this->_requestStatus($status));
     return json_encode($data);
   }
